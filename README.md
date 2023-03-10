@@ -2,20 +2,21 @@
 This tutorial will detail and demonstrate 5 different random maze generators.
 
 ## Table of Contents
-1. **[Additional Resources](Additional-Resources)**
-2. **[Random Generator Algorithm](Random-Generator-Algorithm)**
-3. **[Crawler Generator Algorithm](Crawler-Generator-Algorithm)**
-4. **[Helper Class](Helper-Class)**
-5. **[Recursive Generator Algorithm](Recursive-Generator-Algorithm)**
-6. **[Wilsons Generator Algorithm](Wilsons-Generator-Algorithm)**
-7. **[Prims Generator Algorithm](Prims-Generator-Algorithm)**
+1. **[Additional Resources](#Additional-Resources)**
+2. **[Random Generator Algorithm](#Random-Generator-Algorithm)**
+3. **[Crawler Generator Algorithm](#Crawler-Generator-Algorithm)**
+4. **[Helper Class](#Helper-Class)**
+5. **[Recursive Generator Algorithm](#Recursive-Generator-Algorithm)**
+6. **[Wilsons Generator Algorithm](#Wilsons-Generator-Algorithm)**
+7. 
+Prims Generator Algorithm](#Prims-Generator-Algorithm)**
 
 ## Additional Resources
 - See a playable example at : [5 Random Maze Generator Algorithms WebGL Playable Example](https://nichathan-gaming.github.io/RandomMazeGenerators/)
 - View the source code at : [GitHub Source Code](https://github.com/Nichathan-Gaming/RandomMazeGenerators/blob/master/MazeGenerator.cs)
 - For more info on Maze Generation Algorithms see : [Maze Generation Algorithms on Wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
 - View the video walkthrough at : </br>[![5 Random Maze Generator Algorithms Tutorial](https://img.youtube.com/vi/5H8DvFP_R7I/0.jpg)](https://youtu.be/5H8DvFP_R7I)
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
 
 ## Random Generator Algorithm
 - For the first algorithm that I will introduce, I want to show a purely random option. I feel like this option isn't terribly maze like but I still feel it is important to include.
@@ -33,7 +34,7 @@ This tutorial will detail and demonstrate 5 different random maze generators.
         for (int x = 0; x < width; x++) for (int y = 0; y < height; y++) map[x, y] = (byte)random.Next(0, 2);
     }
 ```
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
 
 ## Crawler Generator Algorithm
 
@@ -88,7 +89,7 @@ This tutorial will detail and demonstrate 5 different random maze generators.
         }
     }
 ```
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
 
 ## Helper Class
 - In the following 3 examples, I use a helper class caleed CountSquareNeighbors which counts the number of paths to the top, bottom, left and right of a given cell in a maze.
@@ -108,7 +109,7 @@ This tutorial will detail and demonstrate 5 different random maze generators.
         return count;
     }
 ```
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
 
 ## Recursive Generator Algorithm
 - For my third example, I provide an example of a recursive algorithm which will crawl in random directions saving the path that it travels. Once a path cannot be followed further, it looks back at the steps taken previously for another path to follow. This runs until all possible steps have been made.
@@ -167,7 +168,7 @@ This tutorial will detail and demonstrate 5 different random maze generators.
         }
     }
 ```
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
 
 ## Wilsons Generator Algorithm
 - For my second to last example, I use the Wilsons Algorithm which uses random crawls to generate the tree.
@@ -295,7 +296,7 @@ This tutorial will detail and demonstrate 5 different random maze generators.
         }
     }
 ```
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
 
 ## Prims Generator Algorithm
 - For my final example, I present my interpretation of the Prims Algorithm which also provides my favorite results. 
@@ -351,4 +352,4 @@ This tutorial will detail and demonstrate 5 different random maze generators.
         for (int i = 0; i < width; i++) for (int j = 0; j < height; j++) map[i, j] = rMap[i + 1, j + 1];
     }
 ```
-</br>**[Back To Top](RandomMazeGenerators)**
+</br>**[Back To Top](#RandomMazeGenerators)**
