@@ -8,8 +8,7 @@ This tutorial will detail and demonstrate 5 different random maze generators.
 4. **[Helper Class](#Helper-Class)**
 5. **[Recursive Generator Algorithm](#Recursive-Generator-Algorithm)**
 6. **[Wilsons Generator Algorithm](#Wilsons-Generator-Algorithm)**
-7. 
-Prims Generator Algorithm](#Prims-Generator-Algorithm)**
+7. **[Prims Generator Algorithm](#Prims-Generator-Algorithm)**
 
 ## Additional Resources
 - See a playable example at : [5 Random Maze Generator Algorithms WebGL Playable Example](https://nichathan-gaming.github.io/RandomMazeGenerators/)
